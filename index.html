@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <title>Attack of the Subtraction Monster!</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <script src="https://cdn.jsdelivr.net/phaser/2.5.0/phaser.min.js"></script>
     <style>
         body{
-            background: #ff6666;
-            background-image:url(https://i.pinimg.com/originals/31/f3/0c/31f30cc008197705198b40d23a6353b8.jpg);
-            background-size:cover;
+            background: url(http://i.pinimg.com/originals/31/f3/0c/31f30cc008197705198b40d23a6353b8.jpg) no-repeat center center fixed;
+              -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
         }
         .container{
             width:800px;
@@ -19,6 +22,7 @@
             text-decoration: underline;
             font-size:56px;
             margin:0;
+            color:#fff;
         }
         .instructions{
             text-align: center;
@@ -36,10 +40,6 @@
 <body>
 <div class="container">
     <h1>Subtraction Monster</h1>
-    <div class="instructions">
-        <strong>Controls:</strong> Enter number to shoot. <br>
-    </div>
-    <hr>
 
     <script type="text/javascript">
 
